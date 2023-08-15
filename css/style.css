@@ -1,0 +1,85 @@
+.theme-background-bg{background-color: #ff4800}
+.theme-text-bg{color:#ff4800}
+
+.main-menu li a:hover
+{
+    background-color: #ff4800;
+    color: white;
+}
+.main-menu .dropdown-li a:hover ul
+{
+    display: block;
+}
+.main-menu .dropdown-li:hover ul li a
+{
+    background-color: floralwhite;
+    color: black;
+
+}
+
+.banner-section
+{
+    height: 500px;
+    width:100%;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner-card-margin
+{
+    margin-top: 130px;
+}
+.banner-btn:hover {
+    background-color: #ff4800;
+    color: white;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.team-name-body
+{
+    display: block;
+}
+.team-card
+{
+    border-bottom:3px solid #ff4800 ;
+}
+.team-social-body
+{
+    display: none;
+}
+.team-card:hover .team-social-body
+{
+    display: block;
+
+}
+.team-card:hover .team-name-body
+{
+    display: none;
+
+}
+.icon-css
+{
+    float: left;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid white;
+    transition: 1s;
+}
+.icon-css i{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.icon-css:hover
+{
+    background-color: white;
+    color: black;
+}
+.icon-css:hover i{
+    color: black!important;
+}
